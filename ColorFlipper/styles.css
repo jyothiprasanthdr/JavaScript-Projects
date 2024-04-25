@@ -1,0 +1,26 @@
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.btn-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-item {
+  margin: 2rem;
+  padding: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 0.1rem;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
