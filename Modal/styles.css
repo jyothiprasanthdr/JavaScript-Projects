@@ -1,0 +1,48 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: cadetblue;
+}
+
+button {
+  margin: 2rem;
+  background-color: whitesmoke;
+  color: black;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: darkblue;
+}
+
+.modal__content {
+  position: relative;
+  background-color: white;
+  padding: 4rem;
+  cursor: pointer;
+}
+
+.modal.open {
+  display: flex;
+}
