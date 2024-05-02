@@ -9,7 +9,6 @@ window.addEventListener("scroll", () => {
   navElement.style.top = scrollPosition + "px";
   navbarLinks.forEach((link) => {
     const sectionElement = document.querySelector(link.hash);
-
     if (
       scrollPosition > sectionElement.offsetTop &&
       scrollPosition < sectionElement.offsetTop + sectionElement.offsetHeight
